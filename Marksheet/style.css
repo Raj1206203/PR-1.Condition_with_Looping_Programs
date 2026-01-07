@@ -1,0 +1,69 @@
+
+body {
+    background: linear-gradient(135deg, #e3f2fd, #f9f9f9);
+    font-family: 'Poppins', sans-serif;
+}
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+    border-color: #198754;
+    box-shadow: 0 0 0 0.15rem rgba(25, 135, 84, 0.25);
+}
+
+
+.btn-outline-success {
+    border-radius: 25px;
+    padding: 8px 25px;
+    font-weight: 500;
+}
+
+.marksheet {
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 15px;
+    border: 2px solid #000;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.college-name {
+    font-weight: 700;
+    font-size: 26px;
+    color: #0d6efd;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #555;
+}
+
+.table th,
+.table td {
+    border: 1px solid #000 !important;
+}
+
+.table thead {
+    background: #e9f2ff;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f7ff;
+}
+
+#grade-display {
+    font-size: 18px;
+    font-weight: 600;
+    color: #198754;
+}
+
+#per-display {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0d6efd;
+}
+
+.signature p {
+    margin-bottom: 5px;
+}
