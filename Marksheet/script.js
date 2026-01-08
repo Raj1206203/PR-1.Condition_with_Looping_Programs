@@ -20,19 +20,20 @@ const reactjs = document.getElementById('reactjs');
 
 // Display Variables
 
-const nameDisplay = document.getElementById('name-display');
-const rollnoDisplay = document.getElementById('rollno-display');
-const htmlDisplay = document.getElementById('html-display');
-const javascriptDisplay = document.getElementById('javascript-display');
-const bootstrapDisplay = document.getElementById('bootstrap-display');
-const reactjsDisplay = document.getElementById('reactjs-display');
+const nameDisplay = document.getElementById('name_display');
+const rollnoDisplay = document.getElementById('rollno_display');
+const htmlDisplay = document.getElementById('html_display');
+const javascriptDisplay = document.getElementById('javascript_display');
+const bootstrapDisplay = document.getElementById('bootstrap_display');
+const reactjsDisplay = document.getElementById('reactjs_display');
 const total = document.getElementById('total');
-const gradeDisplay = document.getElementById('grade-display');
-const perDisplay = document.getElementById('per-display');
+const gradeDisplay = document.getElementById('grade_display');
+const perDisplay = document.getElementById('per_display');
 
 function handleSubmit() {
     nameDisplay.innerText = name.value;
     rollnoDisplay.innerText = rollno.value;
+    
     htmlDisplay.innerText = html.value;
     javascriptDisplay.innerText = javascript.value;
     bootstrapDisplay.innerText = bootstrap.value;
